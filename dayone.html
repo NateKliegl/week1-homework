@@ -63,11 +63,32 @@
                 <input type="text" id="customer" placeholder="Your Name">
                
                 <h3>Favorite Music</h3>
-                <input type="radio" id="music choice1" name="music" value="Hip-Hop">
+                <input type="radio" id="music choice1" checked=checked name="music" value="Hip-Hop">
                 <label for="musicchoice1"> Hip-Hop</label> 
                 <input type="radio" id="music choice2" name="music" value="Country">
                 <label for="music choice2"> Country</label>
-                
+
+                <h3>Choose the months that apply with Winter</h3>
+                 <input type="checkbox" id="month1" name="month" value="July">
+                 <label for="month1">July</label>
+                 <input type="checkbox" id="month2" name="month" value="January">
+                 <label for="month2">January</label>
+                 <input type="checkbox" id="month3" name="month" value="November">
+                 <label for="month3">November</label> 
+                 <br>
+
+                 
+                 <label for="contactTime"> Contact Time</label>
+                 <select id="contactTime" name="contactTime">
+            
+                    <option value="morning">Morning</option>
+                    <option value="afternoon" selected>Afternoon</option>
+                    <option value="evening">Evening</option>
+                    <option value="night">Night</option>
+                 </select>
+
+                <br><button>Submt Form</button>
+
             </form>
         </header>
     </section>
